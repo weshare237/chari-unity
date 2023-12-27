@@ -36,7 +36,7 @@ const Home = () => {
       {/* <!-- Team End --> */}
 
       {/* <!-- Testimonial Start --> */}
-      {/* <TestimonialSection /> */}
+      <TestimonialSection />
       {/* <!-- Testimonial End --> */}
 
       {/* <!-- Back to Top --> */}

@@ -10,7 +10,7 @@ const About = () => {
 
       <AboutSection />
       <ServicesSection />
-      <TeamSection />
+      {/* <TeamSection /> */}
     </>
   )
 }

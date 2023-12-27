@@ -17,7 +17,7 @@ function App() {
         <Route path='/' element={<SharedLayout />}>
           <Route index element={<Home />} />
           <Route path='about' element={<About />} />
-          <Route path='team' element={<Team />} />
+          {/* <Route path='team' element={<Team />} /> */}
           <Route path='contact' element={<Contact />} />
           <Route path='testimonials' element={<Testimonial />} />
           <Route path='services' element={<Service />} />

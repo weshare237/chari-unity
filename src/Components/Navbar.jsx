@@ -76,9 +76,9 @@ const Navbar = () => {
                 <Link to='/donate' className='dropdown-item'>
                   Faire un don
                 </Link>
-                <Link to='/team' className='dropdown-item'>
+                {/* <Link to='/team' className='dropdown-item'>
                   Notre équipe
-                </Link>
+                </Link> */}
                 {/* <Link to='/testimonials' className='dropdown-item'>
                   Témoignages
                 </Link> */}

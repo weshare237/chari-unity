@@ -61,7 +61,10 @@ const Footer = () => {
           </div>
           <div className='col-lg-3 col-md-6'>
             <h5 className='text-light mb-4'>Newsletter</h5>
-            <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+            <p>
+              Restez Informé de l'Action Caritative : Inscrivez-vous à Notre
+              Newsletter.
+            </p>
             <div
               className='position-relative mx-auto'
               style={{ maxWidth: '400px' }}

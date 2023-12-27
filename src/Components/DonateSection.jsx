@@ -1,4 +1,4 @@
-import secondCarousel from '../assets/img/donate.jpg'
+import secondCarousel from '../assets/img/carousel-2.jpg'
 
 const DonateSection = () => {
   return (
@@ -17,9 +17,10 @@ const DonateSection = () => {
               Merci pour les résultats obtenus avec vous
             </h1>
             <p className='text-white-50 mb-0'>
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
-              diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
-              lorem sit clita duo justo magna dolore erat amet
+              Soutenez notre mission avec un don aujourd'hui. Chaque
+              contribution compte pour apporter un changement positif et
+              construire un monde meilleur. Merci de faire partie de cette cause
+              qui fait la différence.
             </p>
           </div>
           <div className='col-lg-6 wow fadeIn' data-wow-delay='0.5s'>

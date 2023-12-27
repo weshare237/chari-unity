@@ -31,20 +31,17 @@ const AboutSection = () => {
                 À propos de nous
               </div>
               <h1 className='display-6 mb-5'>
-                Nous aidons les personnes en détresse dans le monde entier
+                DONNER DU SOURIRE, C'EST DONNER DE L'ESPOIR.
               </h1>
               <div className='bg-light border-bottom border-5 border-primary rounded p-4 mb-4'>
                 <p className='text-dark mb-2'>
-                  Aliqu diam amet diam et eos. Clita erat ipsum et lorem sed
-                  stet lorem sit clita duo justo erat amet
+                  Nous nous adressons à toutes celles qui ont le désir de faire
+                  DONNER UN SOURIRE PAR UN GESTE dans leur maison, au travail, à
+                  l'école et dans le monde.
                 </p>
                 <span className='text-primary'>Marthe Zambo, Founder</span>
               </div>
-              <p className='mb-5'>
-                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-                Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
-                sed stet lorem sit clita duo justo magna dolore erat amet
-              </p>
+
               <a className='btn btn-primary py-2 px-3 me-3' href=''>
                 En savoir plus
                 <div className='d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2'>
