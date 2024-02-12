@@ -1,265 +1,171 @@
-import firstTestimonial from '../assets/img/testimonial-1.jpg'
-import secondTestimonial from '../assets/img/testimonial-2.jpg'
-import thirdTestimonial from '../assets/img/testimonial-3.jpg'
-
 const TestimonialSection = () => {
   return (
-    <div className='container-xxl py-5'>
-      <div className='container'>
-        <div
-          className='text-center mx-auto mb-5 wow fadeInUp'
-          style={{ maxWidth: '500px' }}
-        >
-          <div className='d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3'>
-            Testimonial
-          </div>
-          <h1 className='display-6 mb-5'>
-            Trusted By Thousands Of People And Nonprofits
-          </h1>
-        </div>
-        <div className='my-6 font-[sans-serif] text-[#333]'>
-          <div className='max-w-6xl mx-auto'>
-            <div className='max-w-2xl mx-auto text-center'>
-              <h2 className='text-2xl font-extrabold'>
-                What our happy client say
-              </h2>
-              <p className='text-sm text-[#333] mt-4 leading-relaxed'>
-                Veniam proident aute magna anim excepteur et ex consectetur
-                velit ullamco veniam minim aute sit. Elit occaecat officia et
-                laboris Lorem minim. Officia do aliqua adipisicing ullamco in.
-              </p>
-            </div>
-            <div className='grid md:grid-cols-3 md:gap-6 max-md:gap-10 max-md:justify-center mt-16'>
-              <div className='max-w-[350px] h-auto shadow-[0_2px_22px_-4px_rgba(93,96,127,0.2)] lg:p-8 p-4 rounded-md bg-white relative'>
-                <div className='bg-[#FF6F0F] w-16 h-16 rounded-full p-5 absolute -top-5 -right-5'>
-                  <svg
-                    xmlns='http://www.w3.org/2000/svg'
-                    className='w-full fill-white'
-                    viewBox='0 0 475.082 475.081'
-                  >
-                    <path
-                      d='M164.454 36.547H54.818c-15.229 0-28.171 5.33-38.832 15.987C5.33 63.193 0 76.135 0 91.365v109.632c0 15.229 5.327 28.169 15.986 38.826 10.66 10.656 23.606 15.988 38.832 15.988h63.953c7.611 0 14.084 2.666 19.414 7.994 5.33 5.325 7.994 11.8 7.994 19.417v9.131c0 20.177-7.139 37.397-21.413 51.675-14.275 14.271-31.499 21.409-51.678 21.409h-18.27c-4.952 0-9.233 1.813-12.851 5.427-3.615 3.614-5.424 7.898-5.424 12.847v36.549c0 4.941 1.809 9.233 5.424 12.848 3.621 3.613 7.898 5.427 12.851 5.427h18.271c19.797 0 38.688-3.86 56.676-11.566 17.987-7.707 33.546-18.131 46.68-31.265 13.131-13.135 23.553-28.691 31.261-46.679 7.707-17.987 11.562-36.877 11.562-56.671V91.361c0-15.23-5.33-28.171-15.987-38.828s-23.602-15.986-38.827-15.986zm294.635 15.987c-10.656-10.657-23.599-15.987-38.828-15.987H310.629c-15.229 0-28.171 5.33-38.828 15.987-10.656 10.66-15.984 23.601-15.984 38.831v109.632c0 15.229 5.328 28.169 15.984 38.826 10.657 10.656 23.6 15.988 38.828 15.988h63.953c7.611 0 14.089 2.666 19.418 7.994 5.324 5.328 7.994 11.8 7.994 19.417v9.131c0 20.177-7.139 37.397-21.416 51.675-14.274 14.271-31.494 21.409-51.675 21.409h-18.274c-4.948 0-9.233 1.813-12.847 5.427-3.617 3.614-5.428 7.898-5.428 12.847v36.549c0 4.941 1.811 9.233 5.428 12.848 3.613 3.613 7.898 5.427 12.847 5.427h18.274c19.794 0 38.684-3.86 56.674-11.566 17.984-7.707 33.541-18.131 46.676-31.265 13.134-13.135 23.562-28.695 31.265-46.679 7.706-17.983 11.563-36.877 11.563-56.671V91.361c-.003-15.23-5.328-28.171-15.992-38.827z'
-                      data-original='#000000'
-                    ></path>
-                  </svg>
-                </div>
-                <div className='flex items-center'>
-                  <img
-                    src={firstTestimonial}
-                    alt=''
-                    className='w-14 h-14 rounded-full shadow-xl border-2 border-white'
-                  />
-                  <div className='ml-4'>
-                    <h4 className='text-sm font-extrabold'>John Doe</h4>
-                    <div className='flex space-x-1 mt-2'>
-                      <svg
-                        className='w-4 fill-[#FF6F0F]'
-                        viewBox='0 0 14 13'
-                        fill='none'
-                        xmlns='http://www.w3.org/2000/svg'
-                      >
-                        <path d='M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z' />
-                      </svg>
-                      <svg
-                        className='w-4 fill-[#FF6F0F]'
-                        viewBox='0 0 14 13'
-                        fill='none'
-                        xmlns='http://www.w3.org/2000/svg'
-                      >
-                        <path d='M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z' />
-                      </svg>
-                      <svg
-                        className='w-4 fill-[#FF6F0F]'
-                        viewBox='0 0 14 13'
-                        fill='none'
-                        xmlns='http://www.w3.org/2000/svg'
-                      >
-                        <path d='M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z' />
-                      </svg>
-                      <svg
-                        className='w-4 fill-[#CED5D8]'
-                        viewBox='0 0 14 13'
-                        fill='none'
-                        xmlns='http://www.w3.org/2000/svg'
-                      >
-                        <path d='M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z' />
-                      </svg>
-                      <svg
-                        className='w-4 fill-[#CED5D8]'
-                        viewBox='0 0 14 13'
-                        fill='none'
-                        xmlns='http://www.w3.org/2000/svg'
-                      >
-                        <path d='M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z' />
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-                <div className='mt-4'>
-                  <p className='text-sm leading-relaxed'>
-                    The service was amazing. I never had to wait that long for
-                    my food. The staff was friendly and attentive, and the
-                    delivery was impressively prompt. Elit occaecat officia et
-                    laboris Lorem minim. Officia do aliqua adipisicing ullamco
-                    in.
-                  </p>
-                </div>
-              </div>
-              <div className='max-w-[350px] h-auto shadow-[0_2px_22px_-4px_rgba(93,96,127,0.2)] lg:p-8 p-4 rounded-md bg-white relative'>
-                <div className='bg-[#FF6F0F] w-16 h-16 rounded-full p-5 absolute -top-5 -right-5'>
-                  <svg
-                    xmlns='http://www.w3.org/2000/svg'
-                    className='w-full fill-white'
-                    viewBox='0 0 475.082 475.081'
-                  >
-                    <path
-                      d='M164.454 36.547H54.818c-15.229 0-28.171 5.33-38.832 15.987C5.33 63.193 0 76.135 0 91.365v109.632c0 15.229 5.327 28.169 15.986 38.826 10.66 10.656 23.606 15.988 38.832 15.988h63.953c7.611 0 14.084 2.666 19.414 7.994 5.33 5.325 7.994 11.8 7.994 19.417v9.131c0 20.177-7.139 37.397-21.413 51.675-14.275 14.271-31.499 21.409-51.678 21.409h-18.27c-4.952 0-9.233 1.813-12.851 5.427-3.615 3.614-5.424 7.898-5.424 12.847v36.549c0 4.941 1.809 9.233 5.424 12.848 3.621 3.613 7.898 5.427 12.851 5.427h18.271c19.797 0 38.688-3.86 56.676-11.566 17.987-7.707 33.546-18.131 46.68-31.265 13.131-13.135 23.553-28.691 31.261-46.679 7.707-17.987 11.562-36.877 11.562-56.671V91.361c0-15.23-5.33-28.171-15.987-38.828s-23.602-15.986-38.827-15.986zm294.635 15.987c-10.656-10.657-23.599-15.987-38.828-15.987H310.629c-15.229 0-28.171 5.33-38.828 15.987-10.656 10.66-15.984 23.601-15.984 38.831v109.632c0 15.229 5.328 28.169 15.984 38.826 10.657 10.656 23.6 15.988 38.828 15.988h63.953c7.611 0 14.089 2.666 19.418 7.994 5.324 5.328 7.994 11.8 7.994 19.417v9.131c0 20.177-7.139 37.397-21.416 51.675-14.274 14.271-31.494 21.409-51.675 21.409h-18.274c-4.948 0-9.233 1.813-12.847 5.427-3.617 3.614-5.428 7.898-5.428 12.847v36.549c0 4.941 1.811 9.233 5.428 12.848 3.613 3.613 7.898 5.427 12.847 5.427h18.274c19.794 0 38.684-3.86 56.674-11.566 17.984-7.707 33.541-18.131 46.676-31.265 13.134-13.135 23.562-28.695 31.265-46.679 7.706-17.983 11.563-36.877 11.563-56.671V91.361c-.003-15.23-5.328-28.171-15.992-38.827z'
-                      data-original='#000000'
-                    ></path>
-                  </svg>
-                </div>
-                <div className='flex items-center'>
-                  <img
-                    src={secondTestimonial}
-                    alt=''
-                    className='w-14 h-14 rounded-full shadow-xl border-2 border-white'
-                  />
-                  <div className='ml-4'>
-                    <h4 className='text-sm font-extrabold'>Mark Adair</h4>
-                    <div className='flex space-x-1 mt-2'>
-                      <svg
-                        className='w-4 fill-[#FF6F0F]'
-                        viewBox='0 0 14 13'
-                        fill='none'
-                        xmlns='http://www.w3.org/2000/svg'
-                      >
-                        <path d='M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z' />
-                      </svg>
-                      <svg
-                        className='w-4 fill-[#FF6F0F]'
-                        viewBox='0 0 14 13'
-                        fill='none'
-                        xmlns='http://www.w3.org/2000/svg'
-                      >
-                        <path d='M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z' />
-                      </svg>
-                      <svg
-                        className='w-4 fill-[#FF6F0F]'
-                        viewBox='0 0 14 13'
-                        fill='none'
-                        xmlns='http://www.w3.org/2000/svg'
-                      >
-                        <path d='M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z' />
-                      </svg>
-                      <svg
-                        className='w-4 fill-[#FF6F0F]'
-                        viewBox='0 0 14 13'
-                        fill='none'
-                        xmlns='http://www.w3.org/2000/svg'
-                      >
-                        <path d='M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z' />
-                      </svg>
-                      <svg
-                        className='w-4 fill-[#FF6F0F]'
-                        viewBox='0 0 14 13'
-                        fill='none'
-                        xmlns='http://www.w3.org/2000/svg'
-                      >
-                        <path d='M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z' />
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-                <div className='mt-4'>
-                  <p className='text-sm leading-relaxed'>
-                    The service was amazing. I never had to wait that long for
-                    my food. The staff was friendly and attentive, and the
-                    delivery was impressively prompt. Elit occaecat officia et
-                    laboris Lorem minim. Officia do aliqua adipisicing ullamco
-                    in.
-                  </p>
-                </div>
-              </div>
-              <div className='max-w-[350px] h-auto shadow-[0_2px_22px_-4px_rgba(93,96,127,0.2)] lg:p-8 p-4 rounded-md bg-white relative'>
-                <div className='bg-[#FF6F0F] w-16 h-16 rounded-full p-5 absolute -top-5 -right-5'>
-                  <svg
-                    xmlns='http://www.w3.org/2000/svg'
-                    className='w-full fill-white'
-                    viewBox='0 0 475.082 475.081'
-                  >
-                    <path
-                      d='M164.454 36.547H54.818c-15.229 0-28.171 5.33-38.832 15.987C5.33 63.193 0 76.135 0 91.365v109.632c0 15.229 5.327 28.169 15.986 38.826 10.66 10.656 23.606 15.988 38.832 15.988h63.953c7.611 0 14.084 2.666 19.414 7.994 5.33 5.325 7.994 11.8 7.994 19.417v9.131c0 20.177-7.139 37.397-21.413 51.675-14.275 14.271-31.499 21.409-51.678 21.409h-18.27c-4.952 0-9.233 1.813-12.851 5.427-3.615 3.614-5.424 7.898-5.424 12.847v36.549c0 4.941 1.809 9.233 5.424 12.848 3.621 3.613 7.898 5.427 12.851 5.427h18.271c19.797 0 38.688-3.86 56.676-11.566 17.987-7.707 33.546-18.131 46.68-31.265 13.131-13.135 23.553-28.691 31.261-46.679 7.707-17.987 11.562-36.877 11.562-56.671V91.361c0-15.23-5.33-28.171-15.987-38.828s-23.602-15.986-38.827-15.986zm294.635 15.987c-10.656-10.657-23.599-15.987-38.828-15.987H310.629c-15.229 0-28.171 5.33-38.828 15.987-10.656 10.66-15.984 23.601-15.984 38.831v109.632c0 15.229 5.328 28.169 15.984 38.826 10.657 10.656 23.6 15.988 38.828 15.988h63.953c7.611 0 14.089 2.666 19.418 7.994 5.324 5.328 7.994 11.8 7.994 19.417v9.131c0 20.177-7.139 37.397-21.416 51.675-14.274 14.271-31.494 21.409-51.675 21.409h-18.274c-4.948 0-9.233 1.813-12.847 5.427-3.617 3.614-5.428 7.898-5.428 12.847v36.549c0 4.941 1.811 9.233 5.428 12.848 3.613 3.613 7.898 5.427 12.847 5.427h18.274c19.794 0 38.684-3.86 56.674-11.566 17.984-7.707 33.541-18.131 46.676-31.265 13.134-13.135 23.562-28.695 31.265-46.679 7.706-17.983 11.563-36.877 11.563-56.671V91.361c-.003-15.23-5.328-28.171-15.992-38.827z'
-                      data-original='#000000'
-                    ></path>
-                  </svg>
-                </div>
-                <div className='flex items-center'>
-                  <img
-                    alt=''
-                    src={thirdTestimonial}
-                    className='w-14 h-14 rounded-full shadow-xl border-2 border-white'
-                  />
-                  <div className='ml-4'>
-                    <h4 className='text-sm font-extrabold'>Simon Konecki</h4>
-                    <div className='flex space-x-1 mt-2'>
-                      <svg
-                        className='w-4 fill-[#FF6F0F]'
-                        viewBox='0 0 14 13'
-                        fill='none'
-                        xmlns='http://www.w3.org/2000/svg'
-                      >
-                        <path d='M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z' />
-                      </svg>
-                      <svg
-                        className='w-4 fill-[#FF6F0F]'
-                        viewBox='0 0 14 13'
-                        fill='none'
-                        xmlns='http://www.w3.org/2000/svg'
-                      >
-                        <path d='M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z' />
-                      </svg>
-                      <svg
-                        className='w-4 fill-[#FF6F0F]'
-                        viewBox='0 0 14 13'
-                        fill='none'
-                        xmlns='http://www.w3.org/2000/svg'
-                      >
-                        <path d='M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z' />
-                      </svg>
-                      <svg
-                        className='w-4 fill-[#FF6F0F]'
-                        viewBox='0 0 14 13'
-                        fill='none'
-                        xmlns='http://www.w3.org/2000/svg'
-                      >
-                        <path d='M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z' />
-                      </svg>
-                      <svg
-                        className='w-4 fill-[#CED5D8]'
-                        viewBox='0 0 14 13'
-                        fill='none'
-                        xmlns='http://www.w3.org/2000/svg'
-                      >
-                        <path d='M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z' />
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-                <div className='mt-4'>
-                  <p className='text-sm leading-relaxed'>
-                    The service was amazing. I never had to wait that long for
-                    my food. The staff was friendly and attentive, and the
-                    delivery was impressively prompt. Elit occaecat officia et
-                    laboris Lorem minim. Officia do aliqua adipisicing ullamco
-                    in.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+    <>
+      <div className='inline-flex items-center justify-center w-full'>
+        <hr className='w-1/2 h-1 my-8 bg-gray-200 border-0 rounded dark:bg-gray-700' />
+        <div className='absolute px-4 -translate-x-1/2 bg-white left-1/2 dark:bg-gray-900'>
+          <svg
+            className='w-4 h-4 text-primary'
+            aria-hidden='true'
+            xmlns='http://www.w3.org/2000/svg'
+            fill='currentColor'
+            viewBox='0 0 18 14'
+          >
+            <path d='M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z' />
+          </svg>
         </div>
       </div>
-    </div>
+
+      <div className='my-4 font-[sans-serif] text-[#333]'>
+        <section className='flex items-center bg-white dark:bg-gray-800'>
+          <div className='p-4 mx-auto max-w-7xl'>
+            <div className='mb-20 text-center'>
+              <h1 className='mb-4 text-3xl font-bold'> Témoignages </h1>
+              <p className='max-w-xl mx-auto text-gray-500'>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+                quae quam nostrum harum non in at eaque quibusdam eum ratione.
+              </p>
+            </div>
+            <div className='flex '>
+              <div className='grid grid-cols-1 gap-4 lg:gap-8 sm:gap-4 sm:grid-cols-2 lg:grid-cols-3'>
+                <div
+                  className='relative mb-10 border-b-4 border-primary '
+                  href='#'
+                >
+                  <div className='z-20 pt-8 pb-5'>
+                    <svg
+                      xmlns='http://www.w3.org/2000/svg'
+                      fill='currentColor'
+                      className='absolute top-0 left-0 w-20 h-20 opacity-10'
+                      viewBox='0 0 16 16'
+                    >
+                      <path d='M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z' />
+                    </svg>
+                    <div className='text-center'>
+                      <div className='relative inline-block w-32 h-32 mb-10 text-xs text-white rounded'>
+                        <div className='absolute w-24 h-24 border-t-4 border-r-4 border-primary -top-4 -right-4'></div>
+                        <img
+                          className='object-cover w-full h-full'
+                          src='https://i.postimg.cc/wj9DLCJj/yunming-wang-G9f4-Enb8-XVM-unsplash.jpg'
+                          alt=''
+                        />
+                        <div className='absolute w-24 h-24 border-b-4 border-l-4 border-primary -bottom-4 -left-4'></div>
+                      </div>
+                    </div>
+                    <p className='mb-4 text-base leading-7 text-gray-400'>
+                      Keep on jumping to get the most of the jump rope exercise.
+                      It will help you to increase your bone density as well
+                    </p>
+                    <h2 className='text-lg font-bold leading-9 text-black dark:text-white'>
+                      Allyson Smith
+                    </h2>
+                    <span className='block text-xs font-semibold text-gray-400 uppercase'>
+                      Chief Editor
+                    </span>
+                    <svg
+                      xmlns='http://www.w3.org/2000/svg'
+                      fill='currentColor'
+                      className='absolute right-0 w-20 h-20 rotate-180 bottom-4 opacity-10'
+                      viewBox='0 0 16 16'
+                    >
+                      <path d='M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z' />
+                    </svg>
+                  </div>
+                </div>
+                <div
+                  className='relative mb-10 border-b-4 border-primary '
+                  href='#'
+                >
+                  <div className='z-20 pt-8 pb-5'>
+                    <svg
+                      xmlns='http://www.w3.org/2000/svg'
+                      fill='currentColor'
+                      className='absolute top-0 left-0 w-20 h-20 opacity-10'
+                      viewBox='0 0 16 16'
+                    >
+                      <path d='M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z' />
+                    </svg>
+                    <div className='text-center'>
+                      <div className='relative inline-block w-32 h-32 mb-10 text-xs text-white rounded'>
+                        <div className='absolute w-24 h-24 border-t-4 border-r-4 border-primary -top-4 -right-4'></div>
+                        <img
+                          className='object-cover w-full h-full'
+                          src='https://i.postimg.cc/KvrSzTxg/alexandru-zdrobau-dj-RG1v-B1pw-unsplash.jpg'
+                          alt=''
+                        />
+                        <div className='absolute w-24 h-24 border-b-4 border-l-4 border-primary -bottom-4 -left-4'></div>
+                      </div>
+                    </div>
+                    <p className='mb-4 text-base leading-7 text-gray-400'>
+                      Keep on jumping to get the most of the jump rope exercise.
+                      It will help you to increase your bone density as well
+                    </p>
+                    <h2 className='text-lg font-bold leading-9 text-black dark:text-white'>
+                      Watson Gems
+                    </h2>
+                    <span className='block text-xs font-semibold text-gray-400 uppercase'>
+                      Administrator
+                    </span>
+                    <svg
+                      xmlns='http://www.w3.org/2000/svg'
+                      fill='currentColor'
+                      className='absolute right-0 w-20 h-20 rotate-180 bottom-4 opacity-10'
+                      viewBox='0 0 16 16'
+                    >
+                      <path d='M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z' />
+                    </svg>
+                  </div>
+                </div>
+                <div
+                  className='relative mb-10 border-b-4 border-primary'
+                  href='#'
+                >
+                  <div className='z-20 pt-8 pb-5'>
+                    <svg
+                      xmlns='http://www.w3.org/2000/svg'
+                      fill='currentColor'
+                      className='absolute top-0 left-0 w-20 h-20 opacity-10'
+                      viewBox='0 0 16 16'
+                    >
+                      <path d='M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z' />
+                    </svg>
+                    <div className='text-center'>
+                      <div className='relative inline-block w-32 h-32 mb-10 text-xs text-white rounded'>
+                        <div className='absolute w-24 h-24 border-t-4 border-r-4 border-primary -top-4 -right-4'></div>
+                        <img
+                          className='object-cover w-full h-full'
+                          src='https://i.postimg.cc/gk8KvyTN/ehsan-ahmadi-vs-Wy6nchc-Os-unsplash.jpg'
+                          alt=''
+                        />
+                        <div className='absolute w-24 h-24 border-b-4 border-l-4 border-primary -bottom-4 -left-4'></div>
+                      </div>
+                    </div>
+                    <p className='mb-4 text-base leading-7 text-gray-400'>
+                      Keep on jumping to get the most of the jump rope exercise.
+                      It will help you to increase your bone density as well
+                    </p>
+                    <h2 className='text-lg font-bold leading-9 text-black dark:text-white'>
+                      Stephan Kings
+                    </h2>
+                    <span className='block text-xs font-semibold uppercase text-gray-400'>
+                      Chief Director
+                    </span>
+                    <svg
+                      xmlns='http://www.w3.org/2000/svg'
+                      fill='currentColor'
+                      className='absolute right-0 w-20 h-20 rotate-180 bottom-4 opacity-10'
+                      viewBox='0 0 16 16'
+                    >
+                      <path d='M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z' />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </>
   )
 }
 export default TestimonialSection

@@ -21,7 +21,11 @@ const ServicesSection = () => {
         <div className='row g-4 justify-content-center'>
           <div className='col-lg-4 col-md-6 wow fadeInUp' data-wow-delay='0.1s'>
             <div className='service-item bg-white text-center h-100 p-4 p-xl-5'>
-              <img className='img-fluid mb-4' src={firstService} alt='' />
+              <img
+                className='img-fluid mx-auto mb-4'
+                src={firstService}
+                alt=''
+              />
               <h4 className='mb-3'>Child Education</h4>
               <p className='mb-4'>
                 Offrir la joie et l’espoir aux enfants vivant dans des
@@ -35,9 +39,14 @@ const ServicesSection = () => {
               </a>
             </div>
           </div>
+
           <div className='col-lg-4 col-md-6 wow fadeInUp' data-wow-delay='0.3s'>
             <div className='service-item bg-white text-center h-100 p-4 p-xl-5'>
-              <img className='img-fluid mb-4' src={secondService} alt='' />
+              <img
+                className='img-fluid mx-auto mb-4'
+                src={secondService}
+                alt=''
+              />
               <h4 className='mb-3'>Medical Treatment</h4>
               <p className='mb-4'>
                 Offrir les soins et la scolarité aux enfants malades démunis.
@@ -50,9 +59,14 @@ const ServicesSection = () => {
               </a>
             </div>
           </div>
+
           <div className='col-lg-4 col-md-6 wow fadeInUp' data-wow-delay='0.5s'>
             <div className='service-item bg-white text-center h-100 p-4 p-xl-5'>
-              <img className='img-fluid mb-4' src={thirdService} alt='' />
+              <img
+                className='img-fluid mx-auto mb-4'
+                src={thirdService}
+                alt=''
+              />
               <h4 className='mb-3'>Pure Drinking Water</h4>
               <p className='mb-4'>
                 Autonomiser les parents et les enfants en situation.

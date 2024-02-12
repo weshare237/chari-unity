@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 const Navbar = () => {
@@ -18,16 +17,16 @@ const Navbar = () => {
         </div>
         <div className='col-lg-6 px-5 text-end'>
           <small>Suivez-nous :</small>
-          <a className='text-white-50 ms-3' href=''>
+          <a className='text-white-50 ms-3' href='javscript:void(0)'>
             <i className='fab fa-facebook-f'></i>
           </a>
-          <a className='text-white-50 ms-3' href=''>
+          <a className='text-white-50 ms-3' href='javscript:void(0)'>
             <i className='fab fa-twitter'></i>
           </a>
-          <a className='text-white-50 ms-3' href=''>
+          <a className='text-white-50 ms-3' href='javscript:void(0)'>
             <i className='fab fa-linkedin-in'></i>
           </a>
-          <a className='text-white-50 ms-3' href=''>
+          <a className='text-white-50 ms-3' href='javscript:void(0)'>
             <i className='fab fa-instagram'></i>
           </a>
         </div>
@@ -39,7 +38,7 @@ const Navbar = () => {
       >
         <Link to='/' className='navbar-brand ms-4 ms-lg-0'>
           <h1 className='fw-bold text-primary m-0'>
-            Chari<span className='text-white'>Unity</span>
+            Donner<span className='text-white'>Du</span>Sourire
           </h1>
         </Link>
         <button
@@ -52,7 +51,7 @@ const Navbar = () => {
         </button>
         <div className='collapse navbar-collapse' id='navbarCollapse'>
           <div className='navbar-nav ms-auto p-4 p-lg-0'>
-            <Link to='/' className='nav-item nav-link active'>
+            <Link to='/' className='text-white nav-item nav-link active'>
               Accueil
             </Link>
             <Link to='/about' className='nav-item nav-link'>
@@ -76,12 +75,12 @@ const Navbar = () => {
                 <Link to='/donate' className='dropdown-item'>
                   Faire un don
                 </Link>
-                {/* <Link to='/team' className='dropdown-item'>
+                <Link to='/team' className='dropdown-item'>
                   Notre équipe
-                </Link> */}
-                {/* <Link to='/testimonials' className='dropdown-item'>
+                </Link>{' '}
+                <Link to='/testimonials' className='dropdown-item'>
                   Témoignages
-                </Link> */}
+                </Link>
               </div>
             </div>
             <Link to='/contact' className='nav-item nav-link'>

@@ -8,7 +8,7 @@ const Footer = () => {
         <div className='row g-5'>
           <div className='col-lg-3 col-md-6'>
             <h1 className='fw-bold text-primary mb-4'>
-              Chari<span className='text-white'>Unity</span>
+              Donner<span className='text-white'>Du</span>Sourire
             </h1>
             <p>
               Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat
@@ -88,7 +88,7 @@ const Footer = () => {
         <div className='container'>
           <div className='row'>
             <div className='col-md-6 text-center text-md-start mb-3 mb-md-0'>
-              &copy; <a href='#'>ChariUnity</a>, Tous droits réservés.
+              &copy; <a href='#'>DonnerDuSourire</a>, Tous droits réservés.
             </div>
             <div className='col-md-6 text-center text-md-end'>
               Conçu par <a href='#'>I-TECH CENTER</a>

@@ -11,7 +11,7 @@ const Carousel = () => {
       >
         <div className='carousel-inner'>
           <div className='carousel-item active'>
-            <img className='w-100' src={fristCarousel} alt='Image' />
+            <img className='w-100' src={fristCarousel} alt='Image1' />
             <div className='carousel-caption'>
               <div className='container'>
                 <div className='row justify-content-center'>
@@ -19,26 +19,22 @@ const Carousel = () => {
                     <h1 className='display-4 text-white mb-3 animated slideInDown'>
                       Changeons le monde avec l'humanité
                     </h1>
-                    <p className='fs-5 text-white-50 mb-5 animated slideInDown'>
-                      Aliqu diam amet diam et eos. Clita erat ipsum et lorem sed
-                      stet lorem sit clita duo justo erat amet
-                    </p>
-                    <a
+                    {/* <a
                       className='btn btn-primary py-2 px-3 animated slideInDown'
-                      href=''
+                      href='javscript:void(0)'
                     >
                       En savoir plus
                       <div className='d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2'>
                         <i className='fa fa-arrow-right'></i>
                       </div>
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div className='carousel-item'>
-            <img className='w-100' src={secondCarousel} alt='Image' />
+            <img className='w-100' src={secondCarousel} alt='Image2' />
             <div className='carousel-caption'>
               <div className='container'>
                 <div className='row justify-content-center'>
@@ -46,19 +42,15 @@ const Carousel = () => {
                     <h1 className='display-4 text-white mb-3 animated slideInDown'>
                       Sauvons plus de vies avec notre main tendue
                     </h1>
-                    <p className='fs-5 text-white-50 mb-5 animated slideInDown'>
-                      Aliqu diam amet diam et eos. Clita erat ipsum et lorem sed
-                      stet lorem sit clita duo justo erat amet
-                    </p>
-                    <a
+                    {/* <a
                       className='btn btn-primary py-2 px-3 animated slideInDown'
-                      href=''
+                      href='javscript:void(0)'
                     >
                       En savoir plus
                       <div className='d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2'>
                         <i className='fa fa-arrow-right'></i>
                       </div>
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>
